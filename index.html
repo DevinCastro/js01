@@ -16,15 +16,88 @@
   <!-- use src to link seperate js file -->
   <script>
 
+    let num1 = parseInt(prompt('Enter a number'))
+    let operator = prompt('Enter the operation you want to use (+,-,*,/)')
+    let num2 = parseInt(prompt('Enter another number'))
+    let result
 
-    const greeting = 'hello'
+    if (operator === '+') {
+      result = num1 + num2;
+      alert(result)
+    } else if (operator === '-') {
+      result = num1 - num2
+      alert(result)
+    } else if (operator === '*') {
+      result = num1 * num2
+      alert(result)
+    } else if (operator === '/') {
+      result = num1 / num2
+      alert(result)
+    } else {
+      alert('error')
+    }
 
-    let x = 7
+    // typeof checks type of variable
 
-    alert()
-    let value = prompt("What would you like to do?")
-    // confirm will return a boolian value
-    confirm()
+    // switch (operator) {
+    //     case '+':
+    //       result = num1 + num2
+    //       alert(result)
+    //       break
+    //     case '-':
+    //       result = num1 - num2
+    //       alert(result)
+    //       break
+    //     case '*':
+    //       result = num1 * num2
+    //       alert(result)
+    //       break
+    //     case '/':
+    //       result = num1 / num2
+    //       alert(result)
+    //       break
+    //       default:
+    //       console.log(`Sorry, we are out of ${expr}.`)
+    //   }
+
+
+
+
+
+
+
+
+
+    // let x = 57
+    // let y = 128
+
+    // x = y
+
+    // and: &&, or ||
+
+
+    // if (x > y || 
+    //   x > 50) {
+    //   console.log('yes')
+    // } else if (x === y) {
+    //   console.log('yay')
+    // } else {
+    //   console.log('no')
+    // }
+
+
+
+
+
+
+    // const greeting = 'hello'
+
+    // let x = 7
+
+    // alert()
+    // let value = prompt("What would you like to do?")
+    // // confirm will return a boolian value
+    // confirm()
 
     // var greeting = 'hello'
 
